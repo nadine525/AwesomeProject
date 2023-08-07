@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     width: 120,
     height: 120,
     borderRadius: 16,
-    backgroundColor: "#F6F6F6",
+    backgroundColor: "rgba(246, 246, 246, 1)",
     position: "absolute",
     top: -60,
     alignSelf: "center",
@@ -25,6 +25,6 @@ const styles = StyleSheet.create({
     position: "absolute",
     bottom: 15,
     right: -15,
-    color: "#FF6C00",
+    color: "rgba(255, 108, 0, 1)",
   },
 });

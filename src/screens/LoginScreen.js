@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
 
   childrenBox: {
     position: "relative",
-    backgroundColor: "white",
+    backgroundColor: "rgba(255, 255, 255, 1)",
     width: "100%",
     paddingTop: 32,
     paddingBottom: 144,
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: 25,
   },
   entrance: {
-    color: "#212121",
+    color: "rgba(33, 33, 33, 1)",
     fontFamily: "Roboto-Medium",
     textAlign: "center",
     fontSize: 30,
@@ -68,18 +68,18 @@ const styles = StyleSheet.create({
     padding: 16,
     fontSize: 16,
     fontFamily: "Roboto-Regular",
-    backgroundColor: "#F6F6F6",
-    borderColor: "#E8E8E8",
+    backgroundColor: "rgba(246, 246, 246, 1)",
+    borderColor: "rgba(232, 232, 232, 1)",
     borderWidth: 1,
     borderRadius: 5,
     width: "100%",
   },
   focusInput: {
-    borderColor: "#FF6C00",
-    backgroundColor: "#FFFFFF",
+    borderColor: "rgba(255, 108, 0,1)",
+    backgroundColor: "rgba(255, 255, 255, 1)",
   },
   account: {
-    color: "#1B4371",
+    color: "rgba(27, 67, 113, 1)",
     textAlign: "center",
   },
 });
