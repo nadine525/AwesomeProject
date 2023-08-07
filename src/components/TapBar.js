@@ -8,7 +8,7 @@ export const TapBar = () => {
     <>
       <View style={styles.container}>
         <Feather name="grid" size={24} color="rgba(33, 33, 33, 0.8)" />
-        {/* <Button text="+" width={70} height={40} style={styles.button} /> */}
+        {/* <Button text="+" style={styles.button} /> */}
         <Image source={require("../assets/photo/new.png")} />
         <Feather name="user" size={24} color="rgba(33, 33, 33, 0.8)" />
       </View>
